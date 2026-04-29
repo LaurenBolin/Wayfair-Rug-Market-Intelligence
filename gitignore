@@ -1,0 +1,36 @@
+# API Keys and credentials — never commit these
+.env
+*.env
+.env.local
+credentials.json
+token.json
+*_credentials.json
+*_token.json
+
+# n8n local config
+.n8n/
+n8n.config.js
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Node (if any local scripts)
+node_modules/
+package-lock.json
+
+# Temp files
+*.tmp
+*.temp
